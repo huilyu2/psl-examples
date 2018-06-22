@@ -1,0 +1,15 @@
+1: word(Z) & hasImg(X1, R1, Y1) & sim(Z, X1) & sim(Z, Y1) -> hasImgAns(Z, X1, R1, Y1)
+
+1: word(Z) -> candidate(Z)
+
+1: word(Z) & hasQ(Y, R, X) & hasImgAns(Z, X1, R1, Y1) & sim(R, R1) & sim(Y, Y1) & sim(X, X1) -> candidate(Z)
+
+1: candidate(Z) & hasQ(X, R, "WHAT") & hasImg(Z, R, X) -> ans(Z)
+
+1: candidate(Z) & hasQ(X, R, "WHAT") & hasImg(Z1, R, X) & sim(Z, Z1) -> ans(Z)
+
+1: candidate(Z) & hasQ(X, R, "WHAT") & hasImg(Z1, R1, X1) & sim(Z, Z1) & sim(R, R1) & sim(X, X1) -> ans(Z)
+
+candidate(+Z) <= 4 .
+
+ans(+Z) <= 4 .

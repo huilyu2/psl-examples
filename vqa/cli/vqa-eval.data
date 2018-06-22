@@ -1,0 +1,19 @@
+predicates:
+   hasImg/3: closed
+   hasQ/3: closed
+   word/1: closed
+   sim/2: closed
+   hasImgAns/4: open
+   candidate/1: open
+   ans/1: open
+
+observations:
+   hasImg: ../data/eval/hasimg_obs.txt
+   hasQ: ../data/eval/hasq_obs.txt
+   word: ../data/eval/word_obs.txt
+   sim: ../data/eval/sim_obs.txt
+
+targets:
+   hasImgAns: ../data/eval/hasimgans_targets.txt
+   candidate: ../data/eval/candidate_targets.txt
+   ans: ../data/eval/ans_targets.txt

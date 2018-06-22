@@ -1,0 +1,12 @@
+'barn'	'tree'	'behind'	'fence'	1.0
+'barn'	'horse'	'in'	'background'	1.0
+'church'	'tree'	'behind'	'fence'	1.0
+'horse'	'horse'	'color'	'grey'	1.0
+'church'	'horse'	'color'	'grey'	1.0
+'barn'	'horse'	'color'	'grey'	1.0
+'horse'	'horse'	'in'	'background'	1.0
+'church'	'horse'	'in'	'background'	1.0
+'hotel'	'horse'	'color'	'grey'	1.0
+'hotel'	'tree'	'behind'	'fence'	1.0
+'horse'	'tree'	'behind'	'fence'	1.0
+'hotel'	'horse'	'in'	'background'	1.0

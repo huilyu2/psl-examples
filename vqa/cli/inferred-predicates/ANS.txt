@@ -1,0 +1,4 @@
+'horse'	0.0
+'barn'	0.0
+'church'	0.0
+'hotel'	0.0
